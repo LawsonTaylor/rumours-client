@@ -1,0 +1,23 @@
+#command-list {
+
+ list-style: none;
+ display: inline-flex;
+ justify-content: space-evenly;
+ width: 40%;
+
+}
+
+#transaction-form input {
+  width: 200px;
+}
+
+#sender {
+
+}
+#reciever {
+
+}
+#amount {
+
+}
+

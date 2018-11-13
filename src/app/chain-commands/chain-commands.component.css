@@ -1,0 +1,34 @@
+#command-list {
+
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 60%;
+ 
+ }
+
+ #command-list li {
+   margin: 0 10px; 
+ }
+
+ #transaction-form {
+   margin: auto;
+   width: 200px;
+ }
+ 
+ #transaction-form input, button {
+   width: 200px;
+   margin-top: 20px;
+ }
+
+ #sender {
+ 
+ }
+ #reciever {
+ 
+ }
+ #amount {
+ 
+ }
+ 
+ 
