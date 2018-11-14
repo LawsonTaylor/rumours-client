@@ -1,13 +1,29 @@
-<div>
+<div class="chain-sections">
+  <div class="chain-section">
+    <div id="transaction-form">
+      <input id="sender" type="text" placeholder="Sender">
+      <input id="reciever" type="text" placeholder="Reciever">
+      <input id="amount" type="number" placeholder="Amount">
+      <button id="new-transaction" (click)="newTransaction()">new transactions</button>
+    </div>
+    <div class="current-block">
+    <button id="mine" (click)="mine()">mine</button>
+    <ul>
+      <li><div class="transaction">
+        <p>Sender </p>
+        <p>Reciever </p>
+        <p>Amount </p>
+      </div></li>
+    </ul>
+    </div>
+  </div>
+  <div class="chain-section">
+  </div>
+  <div class="chain-section">
   <ul id="command-list">
     <li><button id="last-block" (click)="lastBlock()">last block</button></li>
     <li><button id="get-chain" (click)="getChain()">get chain</button></li>
-    <li><button id="mine" (click)="mine()">mine</button></li>
+    <li></li>
   </ul>
-  <div id="transaction-form">
-    <input id="sender" type="text" placeholder="Sender">
-    <input id="reciever" type="text" placeholder="Reciever">
-    <input id="amount" type="number" placeholder="Amount">
-    <button id="new-transaction" (click)="newTransaction()">new transactions</button>
   </div>
 </div>
